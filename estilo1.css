@@ -1,0 +1,437 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+
+:root{
+    --primary-color:#eb5757;
+    --second-color:#222;
+    --light-color:#f9f9f9;
+    --dark-color:#333;
+}
+header{ 
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+}
+header .covid{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-color);
+    gap: 10px;
+    background-color: var(--second-color);
+}
+header .covid button{
+    width: 140px;
+    height: 35px;
+    border-radius: 17px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-size: 16px;
+}
+header .covid p{
+    font-size: 18px;
+}
+header .menu{
+    width: 100vw;
+    height: 75px;
+    padding: 0 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+    
+}
+header .menu div{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menu div a{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.3s ease-in;
+}
+header .menu div a:hover{
+   background-color: var(--dark-color);
+}
+header .menu button{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--second-color);
+    background-image: url(carrito.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position:center;
+    border: none;
+    position: relative;
+}
+header .menu div button span{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position:absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    background-color: var(--light-color);
+}
+main{
+    width: 100vw;
+    display: flex;
+    display: block;
+    padding-top: 150px;
+    height: 100;
+}
+main .banner1{ 
+    background-image: url("banner.jpg");
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+main .banner1 h1{
+    color: var(--light-color);
+    font-size: 60px;
+    padding-left: 370px;
+    padding-top: 175px;
+}
+main .banner1 p{
+    color: var(--light-color);
+    font-size: 17px;
+    padding-left: 370px;
+}
+main .banner1 button{
+    width: 130px;
+    height: 36px;
+    border-radius: 5px;
+    margin-left: 370px;
+    margin-top: 17px;
+    background: transparent;
+    border-top-color:  var(--light-color);
+    border-left-color:  var(--light-color);
+    border-right-color:  var(--light-color);
+    border-bottom-color: var(--light-color);
+    color: var(--light-color);
+    font-size: 15px;
+}
+main .articulos{
+    width: 100vw;
+    padding-top: 50px;
+    display: flex;
+     display: inline-block;
+   
+}
+.articulostexto{
+    width: 150px;
+    height: 80px;
+    margin-left: 370px;
+}
+.articulostexto1{
+    width: 450px;
+    height: 80px;
+    font-size: 35px;
+    margin-left: 370px;
+}
+.articulostexto2{
+    width: 550px;
+    height: 80px;
+    margin-left: 970px;
+    margin-top: -100px;
+}
+main .articulos2{
+    width: 100vw;
+    height: 505px;
+    padding: 0 370px;
+    display: flex;
+    justify-content: space-between;   
+}
+main .textoArticulo{
+    color: var(--light-color);
+    font-size: 30px;
+}
+
+main .TXTArticulo{
+    color: var(--light-color);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+main .ArticuloSpan{
+    margin-left: 40px;
+    color: var(--light-color);
+    font-size: 30px;
+}
+main .PrimerCuadroArticulo{
+    background-color: var(--second-color);
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+main .SegundoCuadroArticulo{
+    background-color: var(--second-color);
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+main .TercerCuadroArticulo{
+    background-color: var(--second-color);
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+main .ArticuloP{
+    margin-top: 40px;
+    width: 350px;
+}
+main .ArticuloPDos{
+    margin-top: 40px;
+    width: 360px;
+}
+main .ArticuloPTres{
+    margin-top: 40px;
+    width: 340px;
+}
+main .banner2{
+    background-image: url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg");
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main .banner2 h2{
+    color: var(--light-color);
+    font-size: 45px;
+    margin-left: 55%;
+    padding-top: 200px;
+  
+}
+main .banner2 p{
+    color: var(--light-color);
+    font-size: 17px;
+    padding-right: 385px;
+    text-align: right;
+}
+main .banner2 button{
+    width: 230px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 68%;
+    margin-top: 20px;
+    font-size: 15px;
+    border-color: currentColor;
+}
+
+main .productos{
+    background-image: url("store1.jpg");
+    width: 350px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main .productosdos{
+    background-image: url("store2.jpg");
+    width: 350px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main .productostres{
+    background-image: url("store3.jpg");
+    width: 350px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+main .movii{
+    width: 100vw;
+    height: 505px;
+    padding: 0 370px;
+    display: flex;
+    justify-content: space-between;   
+}
+main .shop{
+    padding-top: 30px;
+}
+
+main .shop{
+    width: 150px;
+    height: 80px;
+    margin-left: 370px;
+}
+main .shop2{
+    width: 300px;
+    height: 80px;
+    margin-left: 370px;
+    font-size: 40px;
+}
+
+main .productostexto{
+    font-size: 20px;
+
+    text-align: center;
+
+}
+
+main .productosparrafo{
+    font-size: 15px;
+    text-align: center;
+  
+}
+main .productospan{
+    font-size: 15px;
+    text-align: center;
+  color: var(--primary-color);
+}
+
+
+main .productosboton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    width: 110px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 10px;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    font-size: 16px;
+    border-color: currentColor;
+}
+main .verProductos{
+    width: 180px;
+    border-radius: 8px;
+    height: 35px;
+    color: var(--light-color);
+    background-color: var(--second-color);
+    display: flex;
+    margin-left: 45%;
+    justify-content: center;
+    margin-top: 35px;
+    padding-top: 5px;
+}
+main .sale{
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    margin-left: 250px;
+    margin-top: 20px;
+    border-color: currentColor;
+}
+main .señora1{
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    padding-top: 100px;
+    
+}
+main .señora{
+    width: 950px;
+    height: 500px;
+    background-color: black;
+    border-radius: 5px;
+}
+main .señorah{
+    color: var(--light-color);
+    font-size: 46px;
+    margin-top: 30px;
+    margin-left: 400px;
+    
+}
+main .señorap{
+    color: var(--light-color);
+    width: 380px;
+    margin-left: 400px;
+}
+main .señoraimagen{
+    background-color: blue;
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+footer .logofooter{
+    width: 100vw;
+    height: 50px;
+    padding: 0 370px;
+    justify-content: space-between; 
+    display: flex; 
+    margin-top: 60px;
+}
+
+footer .made{
+    color: var(--light-color);
+    text-align: center;
+    margin-top: 80px;
+
+}
+footer .imagenfoot{
+    width: 30px;
+}
+footer{
+    width: 100vw;
+    height: 225px;
+    display: flex;
+    display: inline-block;
+   align-self: flex-end;
+   width: 100%;
+   background-color: var(--second-color);
+}
+body{
+    overflow-x:hidden ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
