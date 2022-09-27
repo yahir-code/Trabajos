@@ -138,6 +138,10 @@ main .banner1 button{
     color: var(--light-color);
     font-size: 15px;
 }
+main .banner1 button:hover{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+ }
 main .articulos{
     width: 100vw;
     padding-top: 50px;
@@ -248,9 +252,12 @@ main .banner2 button{
     margin-left: 68%;
     margin-top: 20px;
     font-size: 15px;
-    border-color: currentColor;
+    border: none;
 }
-
+main .banner2 button:hover{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+ }
 main .productos{
     background-image: url("store1.jpg");
     width: 350px;
@@ -329,6 +336,12 @@ main .productosboton{
     font-size: 16px;
     border-color: currentColor;
 }
+main .productosboton:hover{
+    background-color: var(--second-color);
+    color: var(--light-color);
+ }
+
+
 main .verProductos{
     width: 180px;
     border-radius: 8px;
@@ -340,7 +353,14 @@ main .verProductos{
     justify-content: center;
     margin-top: 35px;
     padding-top: 5px;
+    border: none;
 }
+
+main .verProductos:hover{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+ }
+
 main .sale{
     width: 80px;
     height: 35px;
@@ -351,6 +371,9 @@ main .sale{
     margin-top: 20px;
     border-color: currentColor;
 }
+
+
+
 main .señora1{
     width: 100vw;
     height: 800px;
