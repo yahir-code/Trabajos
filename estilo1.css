@@ -13,7 +13,8 @@
     --light-color:#f9f9f9;
     --dark-color:#333;
 }
-header{ 
+header{
+    z-index: 10; 
     width: 100vw;
     height: 150px;
     position: fixed;
@@ -362,6 +363,7 @@ main .señora{
     height: 500px;
     background-color: black;
     border-radius: 5px;
+    margin-left: 300px;
 }
 main .señorah{
     color: var(--light-color);
@@ -376,10 +378,16 @@ main .señorap{
     margin-left: 400px;
 }
 main .señoraimagen{
-    background-color: blue;
-    display: flex;
-    width: 500px;
-    height: 500px;
+    position: relative;
+    width: 350px;
+    height: 400px;
+    left: 380px;
+    background-image: url("imagen3.jpg");
+    background-size: cover;
+    top: 30px;
+    background-position: 69% 60%;
+    background-size: 270%;
+
 }
 footer .logofooter{
     width: 100vw;
@@ -388,6 +396,7 @@ footer .logofooter{
     justify-content: space-between; 
     display: flex; 
     margin-top: 60px;
+    
 }
 
 footer .made{
