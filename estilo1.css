@@ -52,6 +52,7 @@ header .menu{
     color: var(--light-color);
     
 }
+
 header .menu div{
     width: 600px;
     height: 45px;
@@ -110,8 +111,6 @@ main .banner1{
     height: 550px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
-
 }
 main .banner1 h1{
     color: var(--light-color);
@@ -172,6 +171,7 @@ main .articulos2{
     padding: 0 370px;
     display: flex;
     justify-content: space-between;   
+    
 }
 main .textoArticulo{
     color: var(--light-color);
@@ -286,7 +286,9 @@ main .movii{
     padding: 0 370px;
     display: flex;
     justify-content: space-between;   
+  
 }
+
 main .shop{
     padding-top: 30px;
 }
@@ -440,24 +442,338 @@ footer{
    width: 100%;
    background-color: var(--second-color);
 }
-body{
-    overflow-x:hidden ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:480px) {
+    header{
+        z-index: 10; 
+        width: 100vw;
+        height: 150px;
+        position: fixed;
+        background-color: var(--primary-color);
+    }
+    header .covid{
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--light-color);
+        gap: 10px;
+        background-color: var(--second-color);
+    }
+    header .covid button{
+        width: 120px;
+        height: 25px;
+        border-radius: 17px;
+        border: none;
+        background-color: var(--primary-color);
+        color: var(--light-color);
+        font-size: 11px;
+    }
+    header .covid p{
+        font-size: 11px;
+    }
+    header .menu{
+        width: 100vw;
+        height: 75px;
+        padding: 0 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--light-color);
+        
+    }
+    header .menu div{
+        width: 300px;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .menu div a{
+        height: 25px;
+        width: 55px;
+        padding-top: 4px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        color: var(--light-color);
+        display: inline-block;
+        transition: all 0.3s ease-in;
+        font-size: 10px;
+    }
+ header .menu span img{
+    width: 65px;
+ }
+ header .menu button{
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: var(--second-color);
+    background-image: url(carrito.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position:center;
+    border: none;
+    position: relative;
+}
+header .menu div button span{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position:absolute;
+    top: -10px;
+    left: 23px;
+    text-align: center;
+    background-color: var(--light-color);
+}
+main .banner1 h1{
+    color: var(--light-color);
+    font-size: 25px;
+    padding: 0;
+    padding-top: 200px;
+    padding-left: 40px;
+}
+main .banner1 p{
+    color: var(--light-color);
+    font-size: 12px;
+    padding: 0;
+    padding-left: 40px;
+}
+main .banner1 button{
+    margin: 0;
+    width: 100px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: transparent;
+    border-top-color:  var(--light-color);
+    border-left-color:  var(--light-color);
+    border-right-color:  var(--light-color);
+    border-bottom-color: var(--light-color);
+    color: var(--light-color);
+    font-size: 12px;
+}
+main .articulos{
+    width: 100vw;
+    padding-top: 50px;
+    display: flex;
+     display: inline-block;
+     flex-direction: column;   
+}
+main .articulostexto{
+    width: 150px;
+    height: 80px;
+    margin: 0;
+    font-size: 10px;
+    margin-left: 30%;
+}
+main .articulostexto1{
+    width: 450px;
+    height: 80px;
+    margin: 0;
+    font-size: 17px;
+    margin-left: 30%;
+}
+main .articulostexto2{
+    width: 550px;
+    height: 80px;
+    margin: 0;
+    font-size: 13px;
+}
+main .articulos2{
+    padding: 0; 
+    flex-direction: column;   
+    display: block;
+    padding-left: 50px;
+}
+main .ArticuloP{
+    font-size: 13px;
+}
+main .ArticuloPDos{
+    font-size: 13px;
+}
+main .ArticuloPTres{
+    font-size: 13px;
+}
+main .banner2 h2{
+    color: var(--light-color);
+    font-size: 25px;
+    margin: 0;
+    margin-left: 130px;
+}
+main .banner2 p{
+    color: var(--light-color);
+    font-size: 13px;
+    text-align: right;
+    padding: 0;
+    padding-right: 70px;
+}
+main .banner2 button{
+    width: 180px;
+    height: 25px;
+    border-radius: 7px;
+    margin: 0;
+    font-size: 13px;
+    border: none;
+    margin-left: 230px;
+    margin-top: 10px;
+}
+main .shop{
+    width: 150px;
+    height: 80px;
+   margin: 0;
+   font-size: 10px;
+   margin-left: 30%;
+}
+main .shop2{
+    width: 300px;
+    height: 80px;
+    margin: 0;
+    font-size: 17px;
+    margin-left: 30%;
+    margin-top: -30px;
+}
+main .movii{
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    padding: 0;
+    padding-left: 15%;
+}
+main .productos{
+    background-image: url("store1.jpg");
+    width: 350px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main .productosdos{
+    background-image: url("store2.jpg");
+    width: 350px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main .productostres{
+    background-image: url("store3.jpg");
+    width: 350px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main .productostexto{
+    font-size: 13px;
+    text-align: center;
+    margin-right: 50px;
+}
+main .productosparrafo{
+    font-size: 10px;
+    text-align: center;
+    margin-right: 50px;
+}
+main .productospan{
+    font-size: 10px;
+    text-align: center;
+  color: var(--primary-color);
+}
+main .productosboton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    width: 90px;
+    height: 30px;
+    border-radius: 6px;
+    margin-top: 10px;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    font-size: 13px;
+    border-color: currentColor;
+}
+main .verProductos{
+    width: 180px;
+    border-radius: 8px;
+    height: 35px;
+    color: var(--light-color);
+    background-color: var(--second-color);
+    display: flex;
+    margin: 0;
+    margin-left: 35%;
+    justify-content: center;
+    margin-top: 35px;
+    padding-top: 5px;
+    border: none;
+}
+footer .logofooter{
+    width: 100vw;
+    height: 50px;
+    padding: 0 20px;
+    justify-content: space-between; 
+    display: flex; 
+    margin-top: 60px;
 }
 
+main .señora1{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    padding-top: 100px;
+    
+}
+main .señora{
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 0;
+    margin-right: 80px;
+}
+main .señorah{
+    color: var(--light-color);
+    font-size: 13px;
+    margin: 0;
+    margin-left: 100px
+}
+main .señorap{
+    color: var(--light-color);
+    width: 200px;
+    margin: 0;
+    font-size: 9px;
+    margin-left: 80px;
+}
+main .señoraimagen{
+    position: relative;
+    width: 300px;
+    height: 180px;
+    left: 50px;
+    background-image: url("imagen3.jpg");
+    background-size: cover;
+    top: 10px;
+    background-position: 69% 60%;
+    background-size: 270%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+}
 
 
 
